@@ -1,0 +1,36 @@
+/* Styles for the navigation bar */
+*{
+  background-color: #ff1a31; /* Set your desired background color */
+  border-bottom: 1px solid #dee2e6; /* Add a border at the bottom */
+}
+  .navbar a {
+    color: #0f0f0f; /* Set text color */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #343a40; /* Set color for the navbar toggler icon */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000; /* Set text color for navigation links */
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold; /* Highlight active link by making the text bold */
+  }
+  
+  /* Styles for the search form */
+  .form-control {
+    margin-right: 10px; /* Add margin to the search input */
+  }
+  
+  .btn-outline-success {
+    color: #28a745; /* Set text color for the search button */
+    border-color: #28a745; /* Set border color for the search button */
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
